@@ -26,8 +26,9 @@ def get_todo(id):
 
 @api.route('/todos', methods=['POST'])
 def create_todo():
+    POST_RETURN_STATUS = 201
     #TODO: This todo method
-    return jsonify(HARDCODED_TODOS[0])
+    return jsonify(HARDCODED_TODOS[0]), POST_RETURN_STATUS
 
 @api.route('/todos/<int:id>', methods=['PUT'])
 def update_todo(id):
