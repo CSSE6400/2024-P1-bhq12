@@ -25,7 +25,7 @@ def get_todo(id):
     return jsonify(HARDCODED_TODOS[0])
 
 @api.route('/todos', methods=['POST'])
-def create_todo(id):
+def create_todo():
     #TODO: This todo method
     return jsonify(HARDCODED_TODOS[0])
 
