@@ -1,0 +1,13 @@
+First test, does not have to persist state
+
+When we go to deploy the API to the cloud, it has to persist state
+
+Assignment should be released next week
+
+Presentations happen in the practical classes
+
+Course may be semester-end heavy
+
+Practicals are all designed to be done in python (but you don't necessarily have to do it in python)
+
+
